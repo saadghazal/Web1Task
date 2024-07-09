@@ -10,4 +10,4 @@ This project is a simple web page designed to showcase the main elements of the 
 
 ## Contact 
 
-For any questions or feedback, feel free to [contact me](saedghazal@gmail.com)
+For any questions or feedback, feel free to [contact me](mailto:saedghazal@gmail.com)
