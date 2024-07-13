@@ -20,6 +20,18 @@ h1{
     margin: 0;
     font-size: 40px;
 }
+input{
+    padding: 10px 10px;
+    border-radius: 5px;
+    border-width: 1.5px;
+    border: #dddddd solid;
+    
+
+
+}
+input::placeholder{
+    color: #dddddd;
+}
 
 span strong {
     margin-left: 10px;
@@ -71,9 +83,9 @@ span strong {
 }
 .row-cell{
     
-    background-color: #DDDDDD;
+    background-color: white;
     padding: 30px;
-    border-radius: 15px; 
+    border-radius: 10px; 
     margin: 0 20px 0;
     
 }
@@ -87,6 +99,21 @@ span strong {
 .character-p{
     width: 400px; 
     color: #686D76;
+}
+
+button{
+    background-color: gold;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-top: 20px;
+    
+}
+
+button:active{
+    background-color: black;
+    color: white;
 }
 
 
