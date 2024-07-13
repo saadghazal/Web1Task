@@ -9,6 +9,9 @@ a {
     font-weight: 600;
     margin: 10px;
 }
+a:hover{
+    color: darkorange;
+}
 
 h1{
     color: white; 
@@ -18,7 +21,23 @@ h1{
     font-size: 40px;
 }
 
+span strong {
+    margin-left: 10px;
+}
 
+
+.nav-bar-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+
+.nav-bar-flex div{
+    display: flex;
+    align-items: center;
+}
 
 .row-div{
     display: flex;
