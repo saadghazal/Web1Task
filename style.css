@@ -26,6 +26,19 @@ span strong {
 }
 
 
+/*
+ nav bar
+*/
+
+#navbar-section{
+    width: auto;
+    text-align: center;
+    align-items: center;
+    background-color: gold;
+    padding: 10px;
+}
+
+
 .nav-bar-flex{
     display: flex;
     align-items: center;
@@ -38,6 +51,17 @@ span strong {
     display: flex;
     align-items: center;
 }
+
+
+/*
+ home body
+ */
+
+ #body-section{
+    background-color: black; 
+    text-align: center;
+}
+
 
 .row-div{
     display: flex;
@@ -66,15 +90,4 @@ span strong {
 }
 
 
-#navbar-section{
-    width: auto;
-    text-align: center;
-    align-items: center;
-    background-color: gold;
-    padding: 10px;
-}
 
-#body-section{
-    background-color: black; 
-    text-align: center;
-}

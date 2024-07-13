@@ -1,49 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Products</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="products.css" />
+  </head>
+  <body>
     <section id="navbar-section">
-        <nav class="nav-bar-flex">
-          <div>
-            <img
-              src="images/Batman-Logo.png"
-              alt="Batman-Logo"
-              width="100"
-            
+      <nav class="nav-bar-flex">
+        <div>
+          <img src="images/Batman-Logo.png" alt="Batman-Logo" width="100" />
+          <span><strong>Batman Company</strong></span>
+        </div>
+        <div>
+          <a href="">Home</a>
+          <a href="products.html">Products</a>
+          <a href="">Company</a>
+          <a href="">More</a>
+          <label for="search">
+            <input
+              style="display: inline"
+              class="form-control"
+              type="search"
+              placeholder="Search"
             />
-            <span><strong>Batman Company</strong></span>
-  
-          </div>
-          <div>
-            <a href="">Home</a>
-            <a href="products.html">Products</a>
-            <a href="">Company</a>
-            <a href="">More</a>
-            <label for="search">
-              <input style="display: inline;" class="form-control" type="search" placeholder="Search" />
-            </label>
-          </div>
-        </nav>
-      </section>
-      <section id="footer">
-        <div class="container" style="text-align: center;padding: 30px;">
+          </label>
+        </div>
+      </nav>
+    </section>
+    <section id="products-section">
+      <h1>Products</h1>
+      <div class="grid-table">
+        <div class="grid-item">
+          <h3>#</h3>
+        </div>
+        <div class="grid-item">
+          <h3>Product ID</h3>
+        </div>
+        <div class="grid-item">
+          <h3>Product Name</h3>
+        </div>
+        <div class="grid-item">
+          <h3>Product Price</h3>
+        </div>
+        <div class="grid-item">
+          <h3>Product Image</h3>
+        </div>
+        <div class="grid-item">
+          <h4>1</h4>
+        </div>
+        <div class="grid-item">
+          <p>456289</p>
+        </div>
+        <div class="grid-item">
+          <p>Batman T-Shirt</p>
+        </div>
+        <div class="grid-item">
+          <p>23.99 $</p>
+        </div>
+        <div class="grid-item">
             <img
-            src="images/Batman-Logo.png"
-            alt="Batman-Logo"
-            width="100"
-            style="display: inline"
+            class="product-image"
+            src="https://www.jbhifi.com.au/cdn/shop/products/477251-Product-0-I-637810754174169560.jpg?v=1645439084"
+            alt="batman t-shirt"
           />
+        </div>
+
+        
+
+        <h4>2</h4>
+        <p>547500</p>
+        <p>Batman Car</p>
+        <p>49.99 $</p>
+        <img
+          class="product-image"
+          src="https://images-cdn.ubuy.co.in/633ac98a018577427228774a-jada-dc-comic-1989-batmobile-with.jpg"
+          alt="batman car"
+        />
+        <h4>3</h4>
+        <p>320845</p>
+        <p>Joker T-Shirt</p>
+        <p>29.99 $</p>
+        <img
+          class="product-image"
+          src="https://www.tshirtterrorist.co.za/wp-content/uploads/2020/11/joker_folded1.jpg"
+          alt="joker t-shirt"
+        />
+      </div>
+    </section>
+    <section id="footer">
+      <div class="container" style="text-align: center; padding: 30px">
+        <img
+          src="images/Batman-Logo.png"
+          alt="Batman-Logo"
+          width="100"
+          style="display: inline"
+        />
         <p>&copy; Batman Company 2024</p>
         <a href="mailto:saedghazal000@gmail.com">Contact Me</a>
-        </div>
-        
-        
+      </div>
     </section>
-    
-</body>
+  </body>
 </html>
