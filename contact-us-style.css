@@ -1,0 +1,24 @@
+#navbar-section{
+    margin-bottom: 40px;
+}
+
+#cards-section{
+    margin-bottom: 40px;
+}
+#contact-us-section{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+#contact-us-section div.container{
+    width: 40%;
+}
+.container-fluid :nth-child(3){
+    justify-content: flex-end;
+}
+
+.div-card{
+    margin-left: 10px;
+    margin-right: 10px;
+}
