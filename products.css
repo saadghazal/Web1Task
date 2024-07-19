@@ -8,7 +8,7 @@
 
 .grid-table {
   display: grid;
-  grid-template-columns: 10% repeat(4, auto);
+  grid-template-columns: repeat(4, auto);
   grid-template-rows: auto;
   background-color: white;
   border-radius: 10px;
@@ -34,13 +34,13 @@
 }
 
 .add-product-div {
-  text-align: start;
+  display: flex;
+  justify-content: center;
   padding: 20px;
   border: #dddddd solid;
   border-radius: 10px;
   border-width: 2px;
-
-  width: 30%;
+  width: 20%;
   margin: auto;
 }
 
@@ -48,11 +48,15 @@ input,
 label {
   display: block;
 }
+
+div label {
+  text-align: start;
+}
 input {
   margin: 10px 0;
 }
 
-button[type="submit"] {
+button[type="button"] {
   display: block;
   margin-left: auto;
   margin-right: auto;

@@ -25,6 +25,7 @@
       href="images/favicon-16x16.png"
     />
     <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <script src="products_page.js"></script>
   </head>
   <body>
     <section id="navbar-section">
@@ -52,8 +53,6 @@
     <section id="products-section">
       <h1>Products</h1>
       <div class="grid-table">
-        <h3>#</h3>
-
         <h3>Product ID</h3>
 
         <h3>Product Name</h3>
@@ -61,8 +60,6 @@
         <h3>Product Price</h3>
 
         <h3>Product Image</h3>
-
-        <h4>1</h4>
 
         <p>456289</p>
 
@@ -76,7 +73,6 @@
           alt="batman t-shirt"
         />
 
-        <h4>2</h4>
         <p>547500</p>
         <p>Batman Car</p>
         <p>49.99 $</p>
@@ -85,7 +81,7 @@
           src="https://images-cdn.ubuy.co.in/633ac98a018577427228774a-jada-dc-comic-1989-batmobile-with.jpg"
           alt="batman car"
         />
-        <h4>3</h4>
+
         <p>320845</p>
         <p>Joker T-Shirt</p>
         <p>29.99 $</p>
@@ -100,26 +96,37 @@
       <h1>Add Product</h1>
       <div class="add-product-div">
         <form action="">
-          <label for="productName">Product Name</label>
+          <div>
+            <label for="productName">Product Name</label>
+          </div>
+
           <input
             type="text"
             name="productName"
             placeholder="Enter product name"
+            id="pName"
           />
-          <label for="productName">Product Price</label>
+          <div>
+            <label for="productName">Product Price</label>
+          </div>
+
           <input
             type="text"
             name="productName"
             placeholder="Enter product price"
+            id="pPrice"
           />
-          <label for="productName">Product Image</label>
+          <div>
+            <label for="productName">Product URL</label>
+          </div>
           <input
-            type="file"
+            type="text"
             name="productName"
-            placeholder="Upload product image"
+            placeholder="Enter image url"
+            id="pURL"
           />
 
-          <button type="submit">Add Product</button>
+          <button id="add-product" type="button">Add Product</button>
         </form>
       </div>
     </section>
